@@ -26,30 +26,27 @@ The system was tested in two ways:
 
  output:
 
-```
+
 Server started
 Waiting for connection...
-```
+
 
 The server will now listen for client connections.
 
-```bash
+bash
 python client.py
-```
 
-```
+
+
 HOST = 10.183.168.41
-```
+
 Output:
 
-```
 Connected to server
 Message sent
-```
 
 The server will receive and display the message.
 
----
 
 # Test Results
 
@@ -57,10 +54,8 @@ The server will receive and display the message.
 
 Configuration:
 
-```
 Server IP: 10.183.168.41
 Port: 8000
-```
 
 Result:
 
@@ -69,22 +64,19 @@ Result:
 
 Server output:
 
-```
 Connection from ('20.0.30.0', 1)
 Message received: Hello from client
-```
 
----
 
 ## Test 2 — Second Device on Same WiFi
 
 Configuration:
 
-```
+
 Server device: Laptop
 Client device: Another laptop / mobile phone
 Network: Same WiFi network
-```
+
 
 Result:
 
@@ -93,10 +85,9 @@ Result:
 
  Output:
 
-```
 Connection from ('20.0.30.0', 1)
 Message received: Hello from another device
-```
+Temperature result was sent from client to server
 
 Through this project, the following concepts were learned:
 
